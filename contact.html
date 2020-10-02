@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+  </head>
+  <body>
+   <div class="container">
+     <img class="logo"
+       src= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQG4Ch4CCe987ckql72If8XwM_D590m7vs8FVE5n86ByNwPZZgYeRWQyzR5YXm-vSRpYS9E5mPZzLS9dXWnb_VRQiPVir2Sh5Rkbg&usqp=CAU&ec=45702846" alt="adopt"
+
+     <nav
+      class=“nav-list”>
+         <ul>
+         <li class=“list-item”><a href=“index.html”>Home</a></li>
+         <li class=“list-item”><a href=“about.html”>About</a></li>
+         <li class=“list-item”><a href=“contact.html”>Contact</a></li>
     </ul>
   </nav>
 <body>
 <!-------end of navi-->
-<section class="container">
-    <form action="#">
-        label for="fname">First Name</label>
-        <input type="text" id="contact-box" name="firstname" placeholder="Your Name"
-        label for="lname">>Last Name</label>
-        <input type="text" id="contact-box" name="lastname"  placeholder="Last Name"
-        label for="email">Email Address</label>
-        <input type="text" id="contact-box" name="Email" placeholder="Email Address">
-        <label for="comment">Leave a Comment</label> placeholder="Type your message">
-        <input type="text" id="contact-box" name="comment">
+<section class="get-in-touch">
+  <h1 class="title">Get in touch</h1>
+  <form class="contact-form row">
+     <div class="form-field col x-50">
+        <input id="name" class="input-text js-input" type="text" required>
+        <label class="label" for="name">Name</label>
+     </div>
+     <div class="form-field col x-50">
+        <input id="email" class="input-text js-input" type="email" required>
+        <label class="label" for="email">E-mail</label>
+     </div>
+     <div class="form-field col x-100">
+        <input id="message" class="input-text js-input" type="text" required>
+        <label class="label" for="message">Message</label>
+     </div>
+     <div class="form-field col x-100 align-center">
+        <input class="submit-btn" type="submit" value="Submit">
+     </div>
+  </form>
+</section>
+<p class="note">Based on <a class="link" href="http://redcollar.digital/contacts/" target="blank">Canine Connections Contact Form</a>.</p>
 
-        <button value="submit" type="sumit">Submit</button>
 
-
-    </form>
-    <in'
 </section>
     
 

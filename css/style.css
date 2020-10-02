@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
 	margin: 0;
 	background: cream;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	font-weight: 800;
 }
 
@@ -59,7 +58,7 @@ nav a:hover {
   color: #444;
 }
 
-nav a::before {
+nav a:before {
   content: '';
   display: block;
   height: 5px;
@@ -81,4 +80,40 @@ nav a:hover::before {
   margin:25px;
   padding:25px
 }
+.social-menu ul {
+  position:absolute;
+  top:50%
+  left: 50%
+    padding: 0;
+    margin: 0;
 
+.footer {
+  background-color:
+    height:80px;
+    width:100%;
+  position: relative
+    top:700px;
+}
+.footer-col {
+  height:
+  width:
+  float:
+  margin-left:
+    
+    .button{
+      height: 20px;
+      width: 60px;
+ 
+}
+.fab {
+  font-size: 2em;
+  
+}
+
+  .fa-twitter{
+ 
+  color: blue;
+  }
+  .fa-instagram{
+  text-color: yellow;
+  }
